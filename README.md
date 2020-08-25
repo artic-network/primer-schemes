@@ -3,6 +3,7 @@
 Primer schemes for real-time genome epidemiology
 
 [![Build Status](https://travis-ci.org/will-rowe/primer-schemes.svg?branch=master)](https://travis-ci.org/will-rowe/primer-schemes)
+[![DOI](https://zenodo.org/badge/x.svg)](https://zenodo.org/badge/latestdoi/x)
 
 ## updated scheme file format
 
