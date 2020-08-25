@@ -2,6 +2,8 @@
 
 Primer schemes for real-time genome epidemiology
 
+[![Build Status](https://travis-ci.org/will-rowe/primer-schemes.svg?branch=master)](https://travis-ci.org/will-rowe/primer-schemes)
+
 ## updated scheme file format
 
 > updated: 25.08.2020
@@ -32,5 +34,5 @@ The `liftover.py` script was used to create files in the new format for existing
 Schemes were updated using the following command:
 
 ```
-for i in */V*/*.scheme.bed; do scripts/liftover.py -i $i -o ${i%%.scheme.bed}.primer.bed
+for i in */V*/*.scheme.bed; do scripts/liftover.py -i $i -o ${i%%.scheme.bed}.primer.bed; done;
 ```
