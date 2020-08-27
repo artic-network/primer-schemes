@@ -2,10 +2,37 @@
 
 Primer schemes for real-time genome epidemiology
 
-[![Build Status](https://travis-ci.org/will-rowe/primer-schemes.svg?branch=master)](https://travis-ci.org/will-rowe/primer-schemes)
+[![Build Status](https://travis-ci.org/artic-network/primer-schemes.svg?branch=master)](https://travis-ci.org/artic-network/primer-schemes)
 [![DOI](https://zenodo.org/badge/x.svg)](https://zenodo.org/badge/latestdoi/x)
 
-## updated scheme file format
+## About
+
+The primer schemes in this repository were built using [Primal Scheme](https://primalscheme.com/) and are available for the following viruses:
+
+- Ebola
+- Nipah
+- SARS-CoV-2
+
+Within each virus directory, there are versioned sub-directories which each contain a versioned scheme for that virus.
+
+The following files are available per scheme version:
+
+| file extension     | about                                                                                  |
+| ------------------ | -------------------------------------------------------------------------------------- |
+| `.primer.bed`      | The coordinates of each primer in the scheme                                           |
+| `.insert.bed`      | The coordinates of the expected amplicons that the scheme produces (excluding primers) |
+| `.reference.fasta` | The sequence of the reference genome used for the scheme                               |
+| `.tsv`             | Details on each primer in the scheme (name, sequence, length, GC, TM)                  |
+
+For more information visit the [ARTIC network website](https://artic.network/).
+
+## Notes
+
+- There may be some additional files in the scheme directories - these are either deprecated and left for backward compatibility (e.g. `scheme.bed`), or are created by Primal Scheme [check here](https://github.com/aresti/primalscheme) for more info.
+- The schemes are in BED format, which is a 0-based, half-open format. This means that reference sequence position counting starts at 0 and the chromEnd is not included in the primer sequence.
+- All the schemes within this repository can be downloaded using [artic-tools](https://github.com/will-rowe/artic-tools) (e.g. `artic-tools get_scheme ebola --schemeVersion 2`)
+
+## Updated scheme file format
 
 > updated: 25.08.2020
 
@@ -28,12 +55,19 @@ The new format has the following columns:
 
 <sup>\*</sup> column 5 in the BED spec is an int for score, whereas here we are using it to denote primerPool.
 
-### liftover
+### commands
 
-The `liftover.py` script was used to create files in the new format for existing schemes in this repository.
+The `liftover.py` script was used to create a `*.primer.bed` file for each `*.scheme.bed` file, within each scheme directory in this repository.
 
-Schemes were updated using the following command:
+The `validate_scheme` command from [artic-tools](https://github.com/will-rowe/artic-tools) was used to validate each `*.primer.bed` and also to create the `*.insert.bed` file which is produced by recent versions of [Primal Scheme](https://github.com/aresti/primalscheme).
 
-```
-for i in */V*/*.scheme.bed; do scripts/liftover.py -i $i -o ${i%%.scheme.bed}.primer.bed; done;
+The following commands where used:
+
+```bash
+for i in */V*/*.scheme.bed;
+do
+basename=${i%%.scheme.bed}
+scripts/liftover.py -i $i -o ${basename}.primer.bed;
+artic-tools validate_scheme ${basename}.primer.bed --outputInserts ${basename}.insert.bed
+done;
 ```
