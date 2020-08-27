@@ -3,7 +3,7 @@
 Primer schemes for real-time genome epidemiology
 
 [![Build Status](https://travis-ci.org/artic-network/primer-schemes.svg?branch=master)](https://travis-ci.org/artic-network/primer-schemes)
-[![DOI](https://zenodo.org/badge/x.svg)](https://zenodo.org/badge/latestdoi/x)
+[![DOI](https://zenodo.org/badge/96756353.svg)](https://zenodo.org/badge/latestdoi/96756353)
 
 ## About
 
