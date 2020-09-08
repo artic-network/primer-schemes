@@ -11,7 +11,7 @@ The primer schemes in this repository were built using [Primal Scheme](https://p
 
 - Ebola
 - Nipah
-- SARS-CoV-2
+- SARS-CoV-2 (nCoV-2019)
 
 Within each virus directory, there are versioned sub-directories which each contain a versioned scheme for that virus.
 
@@ -31,6 +31,7 @@ For more information visit the [ARTIC network website](https://artic.network/).
 - There may be some additional files in the scheme directories - these are either deprecated and left for backward compatibility (e.g. `scheme.bed`), or are created by Primal Scheme [check here](https://github.com/aresti/primalscheme) for more info.
 - The schemes are in BED format, which is a 0-based, half-open format. This means that reference sequence position counting starts at 0 and the chromEnd is not included in the primer sequence.
 - All the schemes within this repository can be downloaded using [artic-tools](https://github.com/will-rowe/artic-tools) (e.g. `artic-tools get_scheme ebola --schemeVersion 2`)
+- The SARS-CoV-2 directory is an alias to the original nCoV-2019 directory, left for backwards compatibility
 
 ## Updated scheme file format
 
