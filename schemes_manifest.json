@@ -1,0 +1,56 @@
+{
+    "metadata": "Primer schemes for real-time genome epidemiology",
+    "repository": "https://github.com/artic-network/primer-schemes",
+    "latest_doi": "10.5281/zenodo.4004423",
+    "license": "CC-BY-4",
+    "schemes": {
+        "ebola": {
+            "aliases": [
+                "ebola",
+                "ebov"
+            ],
+            "latest_version": 3,
+            "primer_urls": {
+                "1": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V1/ZaireEbola.primer.bed",
+                "2": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V2/ZaireEbola.primer.bed",
+                "3": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V3/ZaireEbola.primer.bed"
+            },
+            "reference_urls": {
+                "1": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V1/ZaireEbola.reference.fasta",
+                "2": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V2/ZaireEbola.reference.fasta",
+                "3": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V3/ZaireEbola.reference.fasta"
+            }
+        },
+        "nipah": {
+            "aliases": [
+                "nipah",
+                "niv"
+            ],
+            "latest_version": 1,
+            "primer_urls": {
+                "1": "https://github.com/artic-network/primer-schemes/raw/master/Nipah/V1/NiV_6_Malaysia.primer.bed"
+            },
+            "reference_urls": {
+                "1": "https://github.com/artic-network/primer-schemes/raw/master/Nipah/V1/NiV_6_Malaysia.reference.fasta"
+            }
+        },
+        "sars-cov-2": {
+            "aliases": [
+                "sars-cov-2",
+                "scov2",
+                "ncov"
+            ],
+            "latest_version": 3,
+            "primer_urls": {
+                "1": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V1/nCoV-2019.primer.bed",
+                "2": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V2/nCoV-2019.primer.bed",
+                "3": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V3/nCoV-2019.primer.bed"
+            },
+            "reference_urls": {
+                "1": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V1/nCoV-2019.reference.fasta",
+                "2": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V2/nCoV-2019.reference.fasta",
+                "3": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V3/nCoV-2019.reference.fasta"
+            }
+        }
+    }
+}
