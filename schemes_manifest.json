@@ -1,0 +1,83 @@
+{
+    "metadata": "Primer schemes for real-time genome epidemiology",
+    "repository": "https://github.com/artic-network/primer-schemes",
+    "latest_doi": "10.5281/zenodo.4004423",
+    "license": "CC-BY-4",
+    "schemes": {
+        "ebola": {
+            "aliases": [
+                "ebola",
+                "ebov",
+                "zaire"
+            ],
+            "latest_version": 3,
+            "primer_urls": {
+                "1": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V1/ZaireEbola.primer.bed",
+                "2": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V2/ZaireEbola.primer.bed",
+                "3": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V3/ZaireEbola.primer.bed"
+            },
+            "reference_urls": {
+                "1": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V1/ZaireEbola.reference.fasta",
+                "2": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V2/ZaireEbola.reference.fasta",
+                "3": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V3/ZaireEbola.reference.fasta"
+            },
+            "primer_sha256_checksums": {
+                "1": "12b6836b4cbb5d23af7a22ff2193dd60e4b159304309906e2a150998e401c702",
+                "2": "ba5e1321fffdef31983e4aebf814e9b8d747a0a4976cd97c558b26db26143e3f",
+                "3": "f2cc48e51efdd8d02dd000d0d546188290aac16627f12f816fd82c01b7f734cc"
+            },
+            "reference_sha256_checksums": {
+                "1": "f1be1c3c975ab4f2e9681f9ce8a9f66a04478e2dd96a5d3e522f639a38a3bd95",
+                "2": "9fb135fd294b5e67e2645547641edaf77ac0bcf9b1642709c05545263804a458",
+                "3": "c5dfa7588caa23bc30a3c6f0a84ba706660e9595f795a47737beebf7cdd368bb"
+            }
+        },
+        "nipah": {
+            "aliases": [
+                "nipah",
+                "niv"
+            ],
+            "latest_version": 1,
+            "primer_urls": {
+                "1": "https://github.com/artic-network/primer-schemes/raw/master/Nipah/V1/NiV_6_Malaysia.primer.bed"
+            },
+            "reference_urls": {
+                "1": "https://github.com/artic-network/primer-schemes/raw/master/Nipah/V1/NiV_6_Malaysia.reference.fasta"
+            },
+            "primer_sha256_checksums": {
+                "1": "e517fc58c5c8a7a33aa459745f6b087a8471123b1682e3c58fe558a548f4529f"
+            },
+            "reference_sha256_checksums": {
+                "1": "c653af71a881094c4753047e8b9459fbe47f475ffdc0e416c7ef32c04beca336"
+            }
+        },
+        "sars-cov-2": {
+            "aliases": [
+                "sars-cov-2",
+                "scov2",
+                "ncov"
+            ],
+            "latest_version": 3,
+            "primer_urls": {
+                "1": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V1/nCoV-2019.primer.bed",
+                "2": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V2/nCoV-2019.primer.bed",
+                "3": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V3/nCoV-2019.primer.bed"
+            },
+            "reference_urls": {
+                "1": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V1/nCoV-2019.reference.fasta",
+                "2": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V2/nCoV-2019.reference.fasta",
+                "3": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V3/nCoV-2019.reference.fasta"
+            },
+            "primer_sha256_checksums": {
+                "1": "c4a33395614e7b4248c346479805be49993d03876619544cc49192162ea1f821",
+                "2": "8795a07989dc16688580d8f919e0b4da0814d2a9bd61e42c41cc2e70e34ff61d",
+                "3": "6e98d7d5d1c6edac8ef0bac70d698e0828ae42bafe8f3bda0a6257d00ce414b5"
+            },
+            "reference_sha256_checksums": {
+                "1": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637",
+                "2": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637",
+                "3": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+            }
+        }
+    }
+}
