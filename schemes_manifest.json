@@ -55,7 +55,8 @@
             "aliases": [
                 "sars-cov-2",
                 "scov2",
-                "ncov"
+                "ncov",
+                "ncov-2019"
             ],
             "latest_version": 3,
             "primer_urls": {
