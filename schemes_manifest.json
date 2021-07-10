@@ -58,7 +58,7 @@
                 "ncov",
                 "ncov-2019"
             ],
-            "latest_version": 3,
+            "latest_version": 4, 
             "primer_urls": {
                 "1": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V1/nCoV-2019.primer.bed",
                 "2": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V2/nCoV-2019.primer.bed",
