@@ -10,7 +10,7 @@
                 "ebov",
                 "zaire"
             ],
-            "latest_version": 3,
+            "latest_version": "3",
             "primer_urls": {
                 "1": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V1/ZaireEbola.primer.bed",
                 "2": "https://github.com/artic-network/primer-schemes/raw/master/ZaireEbola/V2/ZaireEbola.primer.bed",
@@ -37,7 +37,7 @@
                 "nipah",
                 "niv"
             ],
-            "latest_version": 1,
+            "latest_version": "1",
             "primer_urls": {
                 "1": "https://github.com/artic-network/primer-schemes/raw/master/Nipah/V1/NiV_6_Malaysia.primer.bed"
             },
@@ -58,30 +58,34 @@
                 "ncov",
                 "ncov-2019"
             ],
-            "latest_version": 4, 
+            "latest_version": "4.1",
             "primer_urls": {
                 "1": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V1/nCoV-2019.primer.bed",
                 "2": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V2/nCoV-2019.primer.bed",
                 "3": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V3/nCoV-2019.primer.bed",
-                "4": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V4/SARS-CoV-2.primer.bed"
+                "4": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V4/SARS-CoV-2.primer.bed",
+                "4.1": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V4.1/SARS-CoV-2.primer.bed"
             },
             "reference_urls": {
                 "1": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V1/nCoV-2019.reference.fasta",
                 "2": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V2/nCoV-2019.reference.fasta",
                 "3": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V3/nCoV-2019.reference.fasta",
-                "4": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V4/SARS-CoV-2.reference.fasta"
+                "4": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V4/SARS-CoV-2.reference.fasta",
+                "4.1": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V4.1/SARS-CoV-2.reference.fasta"
             },
             "primer_sha256_checksums": {
                 "1": "c4a33395614e7b4248c346479805be49993d03876619544cc49192162ea1f821",
                 "2": "8795a07989dc16688580d8f919e0b4da0814d2a9bd61e42c41cc2e70e34ff61d",
                 "3": "6e98d7d5d1c6edac8ef0bac70d698e0828ae42bafe8f3bda0a6257d00ce414b5",
-                "4": "c9a1e7369bdbdabdb5d52a7f518a44395b5180939035e571586a2e7bfcc9ebc8"
+                "4": "c9a1e7369bdbdabdb5d52a7f518a44395b5180939035e571586a2e7bfcc9ebc8",
+                "4.1": "99cfdd0e5a757997042e326f793887d4884a6e1668870d06b4cd0a8560aaf219"
             },
             "reference_sha256_checksums": {
                 "1": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637",
                 "2": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637",
                 "3": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637",
-                "4": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
+                "4": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637",
+                "4.1": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
             }
         }
     }
