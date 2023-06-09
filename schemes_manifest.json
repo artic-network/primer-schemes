@@ -65,7 +65,7 @@
                 "3": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V3/nCoV-2019.primer.bed",
                 "4": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V4/SARS-CoV-2.primer.bed",
                 "4.1": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V4.1/SARS-CoV-2.primer.bed",
-                "5.3.2": "https://github.com/quick-lab/SARS-CoV-2/raw/main/400/v5.3.2_400/SARs-CoV-2_v5.3.2_400.primer.bed"
+                "5.3.2": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V5.3.2/SARS-CoV-2.primer.bed"
             },
             "reference_urls": {
                 "1": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V1/nCoV-2019.reference.fasta",
@@ -73,7 +73,7 @@
                 "3": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V3/nCoV-2019.reference.fasta",
                 "4": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V4/SARS-CoV-2.reference.fasta",
                 "4.1": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V4.1/SARS-CoV-2.reference.fasta",
-                "5.3.2": "https://github.com/quick-lab/SARS-CoV-2/raw/main/400/v5.3.2_400/MN908947.3.fasta"
+                "5.3.2": "https://github.com/artic-network/primer-schemes/raw/master/nCoV-2019/V5.3.2/SARS-CoV-2.reference.fasta"
             },
             "primer_sha256_checksums": {
                 "1": "c4a33395614e7b4248c346479805be49993d03876619544cc49192162ea1f821",
@@ -81,7 +81,7 @@
                 "3": "6e98d7d5d1c6edac8ef0bac70d698e0828ae42bafe8f3bda0a6257d00ce414b5",
                 "4": "0343668a40db2e52ee3e41f42f78a27d58f3b128c993a166f877c24209be455f",
                 "4.1": "08ae5d4ca1b95b576df3252ed5f6fefc976dd63d066cec81949c5cc43a814f9e",
-                "5.3.2": "914b235587eb82cb8f4a2f9b165b90e6af52a09a1ba622bf264ae0aedd4b15f6"
+                "5.3.2": "cca4d6c4a3c0fb8f2344904c07974cb2b80a5a1281a76fd1ef394e75ea58204f"
             },
             "reference_sha256_checksums": {
                 "1": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637",
@@ -89,7 +89,7 @@
                 "3": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637",
                 "4": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637",
                 "4.1": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637",
-                "5.3.2": "eec2c5085009fd02c8c6b4db05983d36ef1f04a84d1f1cbdb8de91d16e87423a"
+                "5.3.2": "b09a4a3d6824dc4a9f3a17d480f3335f73cb1507897f6dad0de871e8f00d8637"
             }
         }
     }
